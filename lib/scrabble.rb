@@ -5,6 +5,7 @@ class String
   "m" => 3, "p" => 3, "f" => 4, "h" => 4, "v" => 4, "w" => 4, "y" => 4, "k" => 5,
   "j" => 8, "x" => 8, "q" => 10, "z" => 10}
   # letters = []
+  self.downcase!()
   letters = self.split(//)
   sum = 0
   letters.each() do |letter|
